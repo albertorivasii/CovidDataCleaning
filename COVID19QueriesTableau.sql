@@ -35,7 +35,7 @@ WHERE continent IS NOT NULL
 GROUP BY location, date
 ORDER BY date;
 
--- Visual 4: infections per million by date and country
+-- Visual 4: infections by date and country
 
 SELECT date
 	,location
