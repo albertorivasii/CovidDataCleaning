@@ -10,4 +10,4 @@ Goal was to try and visualize the relationship between COVID-19 vaccination rate
 ## Possibilities for Improvement
 - Fill Null Values in SQL to have one less step for Tableau analysis
 - Explore other data comparison options such as GDP/capita and its relation to COVID-19 Deaths
-- Create a view that creates vaccination and death rates on a per capita basis
+- Create rolling sums in SQL rather than doing it in Tableau
