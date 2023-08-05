@@ -3,7 +3,7 @@
 SELECT date
 	,SUM(new_cases) AS total_cases
 	,SUM(new_deaths) AS total_deaths
-	,SUM(new_deaths)/SUM(New_Cases)*100 AS DailyDeathPCT
+	,CONCAT(SUM(new_deaths)/SUM(New_Cases)*100, '%') AS DailyDeathPCT
 FROM CovidDatabase..CovidDeaths
 WHERE continent is not null
 	AND new_cases > 0
